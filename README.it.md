@@ -26,13 +26,13 @@ ciascuno come testo stampato e come testo corretto, con i sorgenti LaTeX modific
 ## Come è stata fatta
 
 - **Scansione:** Maxim Leyenson.
-- **Trascrizione:** prodotta da IA (OpenAI gpt-6-astra) dalla scansione.
+- **Trascrizione:** prodotta da IA (OpenAI gpt-6-astra con reasoning effort max (Responses API, Flex)) dalla scansione.
 - **Edizione:** impaginazione e correzioni prodotte da IA (ChatGPT, modalità Pro); altre correzioni: Claude (Anthropic).
 - **Revisioni:** l'intero libro è stato confrontato pagina per pagina con le scansioni, in sei revisioni, da ChatGPT
   (modalità Pro).
 - **Questa versione:** i risultati delle revisioni sono stati riportati nel testo (errori di trascrizione corretti,
-  letture dubbie risolte, testo corretto) da Claude Opus 5.5. L'inglese è tradotto da IA (Claude Opus 5.5)
-  dall'italiano come stampato. Un secondo modello (OpenAI gpt-6-astra) ha confrontato l'inglese con l'italiano; i problemi trovati sono stati valutati e corretti da Claude Opus 5.5.
+  letture dubbie risolte, testo corretto) da Claude Opus 5.5 con effort max (Message Batches API). L'inglese è tradotto da IA (Claude Opus 5.5 con effort max (Message Batches API))
+  dall'italiano come stampato. Un secondo modello (OpenAI gpt-6-astra con reasoning effort max (Responses API, Flex)) ha confrontato l'inglese con l'italiano; i problemi trovati sono stati valutati e corretti da Claude Opus 5.5 con effort max (Message Batches API).
 
 Nessuna persona ha riletto l'edizione. Restano certamente degli errori: segnalateli con una issue, indicando la pagina.
 
@@ -57,7 +57,7 @@ Nessuna persona ha riletto l'edizione. Restano certamente degli errori: segnalat
   trascrizione, ora corretti, e hanno risolto 74 letture dubbie; ne restano aperte 51, con una nota *Dubbio*.
   Ogni modifica è registrata con la sua ragione in [`corrections.csv`](corrections.csv).
 - **L'inglese,** confrontato con l'italiano da uno script: ogni formula, ogni segno di pagina e ogni nota sono gli
-  stessi. Un secondo modello (OpenAI gpt-6-astra) l'ha confrontato tutto con l'italiano e ha trovato 17 problemi; sono stati tutti corretti, insieme ad altri 20 punti con lo stesso tipo di problema. Nell'inglese corretto valgono 174 delle 232 correzioni; le altre 58 sono sviste di ortografia o di concordanza italiane senza corrispondente in inglese.
+  stessi. Un secondo modello (OpenAI gpt-6-astra con reasoning effort max (Responses API, Flex)) l'ha confrontato tutto con l'italiano e ha trovato 17 problemi; sono stati tutti corretti, insieme ad altri 20 punti con lo stesso tipo di problema. Nell'inglese corretto valgono 174 delle 232 correzioni; le altre 58 sono sviste di ortografia o di concordanza italiane senza corrispondente in inglese.
 
 ## Diritti
 

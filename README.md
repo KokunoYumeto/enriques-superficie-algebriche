@@ -26,12 +26,12 @@ as printed and as a corrected text, with editable LaTeX.
 ## How it was made
 
 - **Scan:** Maxim Leyenson.
-- **Transcription:** AI-transcribed by OpenAI gpt-6-astra (effort not recorded) from the scan.
+- **Transcription:** AI-transcribed by OpenAI gpt-6-astra at reasoning effort max (Responses API, Flex) from the scan.
 - **Edition:** AI-produced typesetting and corrections by ChatGPT (Pro mode); further corrections by Claude (Anthropic).
 - **Audits:** the whole book audited page by page against the scans, in six audits, by ChatGPT (Pro mode).
 - **This version:** the audits' findings carried into the text (transcription errors corrected, doubtful readings
-  settled, the corrected text) by Claude Opus 5.5. The English is AI-translated by Claude Opus 5.5 (effort not recorded) from the Italian
-  as printed. A second model (OpenAI gpt-6-astra (effort not recorded)) read the English against the Italian; the problems it found were judged and fixed by Claude Opus 5.5.
+  settled, the corrected text) by Claude Opus 5.5 at effort max (Message Batches API). The English is AI-translated by Claude Opus 5.5 at effort max (Message Batches API) from the Italian
+  as printed. A second model (OpenAI gpt-6-astra at reasoning effort max (Responses API, Flex)) read the English against the Italian; the problems it found were judged and fixed by Claude Opus 5.5 at effort max (Message Batches API).
 
 No human has proofread the edition. Errors certainly remain: please report them as issues, with the page.
 
@@ -55,7 +55,7 @@ No human has proofread the edition. Errors certainly remain: please report them 
   corrected, and settled 74 of the doubtful readings; 51 remain open and carry a *Dubbio* note. Every change is
   recorded with its reason in [`corrections.csv`](corrections.csv).
 - **The English,** checked against the Italian by script: every formula, page marker and footnote is the same.
-  A second model (OpenAI gpt-6-astra (effort not recorded)) read all of it against the Italian and found 17 problems; all were fixed, together with 20 further places with the same kind of problem. In the corrected English, 174 of the 232 corrections apply; the other 58 are Italian spelling or agreement slips with no English counterpart.
+  A second model (OpenAI gpt-6-astra at reasoning effort max (Responses API, Flex)) read all of it against the Italian and found 17 problems; all were fixed, together with 20 further places with the same kind of problem. In the corrected English, 174 of the 232 corrections apply; the other 58 are Italian spelling or agreement slips with no English counterpart.
 
 ## Rights
 

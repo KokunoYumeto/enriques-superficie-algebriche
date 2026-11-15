@@ -60,8 +60,7 @@ No human has proofread the edition. Errors certainly remain: please report them 
 ## Rights
 
 The original work is in the public domain in the European Union: Federigo Enriques died in 1946 and Guido
-Castelnuovo, author of the preface, in 1952. Its status elsewhere may differ. Where we hold rights, in the AI-produced
-transcription, translation, corrections and typesetting, they are dedicated to the public domain under CC0 1.0. This
+Castelnuovo, author of the preface, in 1952. In the United States it stays protected until the end of 2044 (it was published in 1949). Our transcription, translation, corrections and typesetting were produced by AI. They have no human author and, in our understanding, are not protected by copyright; where any right of ours exists nonetheless, it is dedicated to the public domain under CC0 1.0. Where the original work is still protected, nothing here licenses or authorizes its reproduction, translation or other use. This
 edition is published for educational, non-profit purposes, and we claim no rights we do not hold. If you hold rights
 in this work and object to its publication here, please open a GitHub issue and we will take it down.
 
